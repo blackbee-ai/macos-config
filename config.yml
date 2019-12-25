@@ -7,7 +7,7 @@ homebrew_installed_packages:
   - awk
   - awscli
   - azure-cli
-  - ballerina
+  # - ballerina
   - chrome-cli
   - coreutils
   - diffutils
