@@ -82,6 +82,7 @@ homebrew_cask_apps:
   - insomnia
   - iterm2
   - logitech-presentation
+  - microsoft-office
   - multipass
   - pgadmin4
   - postgres
