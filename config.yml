@@ -117,7 +117,6 @@ dockutil_install_path: /usr/local/bin/dockutil
 dockitems_remove_all: false
 
 dockitems_disabled:
-  - Mail
   - Safari
   - Siri
   - Contacts
@@ -137,8 +136,8 @@ dockitems_enabled:
   - name: Launchpad
     path: "/Applications/Launchpad.app"
     pos: 1
-  - name: Spark
-    path: "/Applications/Spark.app"
+  - name: Mail
+    path: "/Applications/Mail.app"
     pos: 2
   - name: Calendar
     path: "/System/Applications/Calendar.app"
@@ -146,16 +145,16 @@ dockitems_enabled:
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
     pos: 4
-  - name: Tweetbot
-    path: "/Applications/Tweetbot.app"
+  - name: Brave
+    path: "/Applications/Brave Browser.app"
     pos: 5
 
-dotfiles_repo: "https://github.com/blackbee-ai/dotfiles.git"
-dotfiles_repo_version: master
-dotfiles_repo_local_destination: "~/Projects/personal/dotfiles"
-dotfiles_repo_accept_hostkey: true
-dotfiles_home: "~"
-dotfiles_files:
-  - .gitconfig
-  - .gitignore
-  - .zshrc.local
+# dotfiles_repo: "https://github.com/blackbee-ai/dotfiles.git"
+# dotfiles_repo_version: master
+# dotfiles_repo_local_destination: "~/Projects/personal/dotfiles"
+# dotfiles_repo_accept_hostkey: true
+# dotfiles_home: "~"
+# dotfiles_files:
+#   - .gitconfig
+#   - .gitignore
+#   - .zshrc.local
