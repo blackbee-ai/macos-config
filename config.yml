@@ -1,39 +1,62 @@
 ---
 homebrew_installed_packages:
+  - ack
+  - angular-cli
+  - ansiweather
   - asciidoctor
+  - awk
   - awscli
-  - cfssl
+  - azure-cli
+  - ballerina
+  - chrome-cli
   - coreutils
-  - curl
-  - dep
-  - direnv
-  - elixir
-  - elm
-  - elm-format
-  - erlang
+  - diffutils
+  - docker
+  - docker-completion
+  - duck
+  - emojify
   - exercism
-  - fzf
+  - findutils
+  - gcutil
   - git
+  - git-cal
   - git-lfs
-  - gnu-tar
-  - go
-  - gpg
+  - git-quick-stats
   - graphviz
+  - grep
   - gzip
-  - httpie
+  - helm
   - hugo
-  - jq
+  - ipython
+  - jupyterlab
+  - kubeless
+  - kubernetes-cli
+  - mas
+  - netcat6
+  - nmap
   - node
+  - opencv
+  - openssl@1.1
   - packer
   - plantuml
-  - pre-commit
-  - pstree
+  - postgresql
+  - postgresql@10
+  - postgresql@9.6
   - pulumi
+  - tcpdump
   - terraform
   - terraform-docs
+  - typescript
   - watch
   - wget
+  - whois
+  - wireshark
   - zsh
+  - zsh-autosuggestions
+  - zsh-completions
+  - zsh-git-prompt
+  - zsh-history-substring-search
+  - zzz
 
 homebrew_taps:
   - homebrew/core
@@ -45,41 +68,26 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - 1password
-  - alfred
-  - azure-data-studio
-  - balenaetcher
-  - corretto
   - dash
-  - discord
-  - dropbox
-  - duet
   - firefox
-  - focus
   - font-powerline-symbols
   - font-roboto-mono-for-powerline
   - fork
-  - garmin-express
-  - gitter
   - insomnia
-  - istat-menus
   - iterm2
-  - keybase
   - little-snitch
   - micro-snitch
+  - multipass
   - omnifocus
   - signal
   - slack
   - spectrum
-  - spotify
-  - telegram
-  - trainerroad
   - vagrant
   - virtualbox
   - virtualbox-extension-pack
   - viscosity
   - visual-studio-code
   - vlc
-  - whatsapp
   - wifi-explorer
   - zoho-workdrive
   - zoomus
