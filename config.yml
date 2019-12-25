@@ -65,28 +65,31 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - 1password
+  - brave-browser
+  - cyberduck
   - dash
+  - docker
   - firefox
   - font-powerline-symbols
   - font-roboto-mono-for-powerline
   - fork
+  - gimp
+  - google-chrome
+  - google-cloud-sdk
+  - googleappengine
+  - inkscape
   - insomnia
   - iterm2
-  - little-snitch
-  - micro-snitch
+  - logitech-presentation
   - multipass
-  - omnifocus
+  - pgadmin4
+  - postgres
+  - postman
   - signal
-  - slack
-  - spectrum
-  - vagrant
+  - tresorit
   - virtualbox
   - virtualbox-extension-pack
-  - viscosity
   - visual-studio-code
-  - vlc
-  - wifi-explorer
-  - zoho-workdrive
   - zoomus
 
 mas_email: ""
