@@ -146,7 +146,7 @@ dockitems_enabled:
     path: "/Applications/Tweetbot.app"
     pos: 5
 
-dotfiles_repo: "https://github.com/ringods/dotfiles.git"
+dotfiles_repo: "https://github.com/blackbee-ai/dotfiles.git"
 dotfiles_repo_version: master
 dotfiles_repo_local_destination: "~/Projects/personal/dotfiles"
 dotfiles_repo_accept_hostkey: true

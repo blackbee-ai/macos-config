@@ -20,11 +20,11 @@ jobs:
       - name: Run Ansible
         run: |
           ansible-galaxy install -r requirements.yml
-          ansible-playbook ringods.yml --syntax-check
-          ansible-playbook --extra-vars '{\"configure_sudoers\":\"false\"}' --skip-tags appstore ringods.yml
+          ansible-playbook beto.yml --syntax-check
+          ansible-playbook --extra-vars '{\"configure_sudoers\":\"false\"}' --skip-tags appstore beto.yml
 
       - name: Check idempotence
         run: |
           idempotence=$(mktemp)
-          ansible-playbook --extra-vars '{\"configure_sudoers\":\"false\"}' --skip-tags appstore ringods.yml | tee -a ${idempotence}
+          ansible-playbook --extra-vars '{\"configure_sudoers\":\"false\"}' --skip-tags appstore beto.yml | tee -a ${idempotence}
           tail ${idempotence} | grep -q 'changed=0.*failed=0' && (echo 'Idempotence test: pass' && exit 0) || (echo 'Idempotence test: fail' && exit 1)
