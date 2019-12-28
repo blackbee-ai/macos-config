@@ -85,6 +85,7 @@ homebrew_cask_apps:
   - logitech-presentation
   - microsoft-office
   - multipass
+  # - owncloud
   - pgadmin4
   - postgres
   - postman
